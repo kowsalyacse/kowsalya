@@ -1,0 +1,219 @@
+*{
+padding: 0;
+margin: 0;
+font-family: sans-serif;
+box-sizing: border-box;
+}
+.hero
+{
+ height: 100vh;
+ width: 100%;
+ background-image:url(rk.jpg);
+ background-size: cover;
+ background-position: center;
+}
+nav{
+     display:flex;
+     padding:5%;
+     margin:5px;
+     flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    margin: 70px ;
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-size:21px ;
+    position: relative;
+}
+nav ul li a:hover {
+    color:red;
+}
+.button{
+    background-color: blueviolet;
+    font-weight:bold;
+    color:white;
+    border-radius: 80px;
+    text-decoration: none;
+
+}
+.content{
+  font-size: 21px;
+  font-family: sans-serif;  
+  margin:30px;
+  margin-bottom:30px;
+  padding: 70px;
+  
+}
+h3{
+   color:black;
+   font-size: 30px; 
+}
+h4{
+    color:orange;
+    font-size: 30px;
+}
+.clicking form{
+width: 100%;
+position: absolute;
+
+}
+.clicking form input :first-child{
+    display: inline;
+    width: 100%;
+    padding: 120px 15px 13px 15px;
+    margin-right :5px;
+    border: 3px;
+    border-radius: 40px;
+    color:blue;
+}
+.clicking form input:last-child{
+     display:inline-block;
+     padding:5px;
+     border-radius: 30px;
+     top:-5px;
+     border:none;
+     background-color:rosybrown;
+     position: absolute;
+     margin-right: 5px;
+}
+ .about-me{
+    width:100%;
+    padding:100px 0px;
+    background-color:grey;
+ }
+ .about_me img
+{
+    height: auto;
+    width: 400px;
+}
+.about-content{
+    color:black;
+    margin-left:50px;
+}
+.main{
+    display:flex;
+}
+h6{
+    color:black;
+    font-weight: bold;
+    margin-top:50px;
+    font-size:32px;
+}
+.about-content p{
+    color:black;
+    font-size:19px;
+}
+.skills{
+    background-color:rgb(126, 142, 234);
+    width:100%
+}.title h2{
+    color:rgb(247, 239, 239); 
+    font-size: 50px;
+    text-align:center;
+
+}
+.box{
+    display :flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+height:300px;
+width:100%;
+background-color: rosybrown;
+border-radius: 25px;
+margin:50px;
+}
+ .card h4{
+ text-align: center;
+}
+.para p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom:60px;
+}
+.para .button{
+    text-align:none;
+    border-radius:30px;
+    margin-right:50px ;
+    transition: .5s;
+    padding: 10px 20px;
+    
+}
+.card i{
+    color:black;
+    font-size:30px;
+    text-align: center;
+    margin-right:15px 0px;
+    display: block;
+}
+.contact{
+    background-color: rgb(116, 100, 151);
+    width:100%;
+}
+.con h2{
+    text-align:center;
+    font-size:50px;
+}
+.con p{
+    margin:50px;
+    text-align:center;
+    background-color:rosybrown;
+}
+.con h4{
+    text-align: center ;
+    margin-bottom:30px;
+}
+.footer{
+    width:100%;
+    background-color: rgb(154, 220, 154);
+    
+}
+.footer .owner{
+    font-weight: bold;
+    margin-bottom:50px;
+    text-align: center;
+    font-size: 30px;
+}
+.footer .reach{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom:30px;
+}
+.footer .socialmedia a{
+    width: 30px;
+    height:30px;
+    display:inline-flexbox;
+    background-color:white;
+    border-radius:50%;
+    flex-direction:column ;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 20%;
+    margin-right:15px ;
+    justify-content: right;
+    padding: 20px;
+}
+.footer .socialmedia a:hover{
+    background-color: transparent;
+    border: solid black;
+    cursor:pointer;
+    transform:scale(1.3);
+    transition: .5s;
+}
+.footer h2{
+    font-size: 15px;
+    font-weight:bold ;
+    text-align: center;
+    margin-bottom:30px ;
+}
+
+
+
